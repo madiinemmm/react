@@ -49,7 +49,19 @@ function App() {
               <p className="wrapper-txt3">Our software design philosophy is all about the mobile end user, in particular their preference to Tap not Type.</p>
             </div>
           </div>
+   
             </div>
+            <div className="main2">
+              <div className="main2-wrapper">
+              <h3 className="main2-txt">Personalized mobile commerce</h3>
+            <button className='btn2'>Patented</button>
+              </div>
+              <div className="main3-wrapper">
+              <h1 className="main3-txt2">Breakthrough use of personalization and imagery</h1>
+              <p className="main3-txt3">Add another dimension to your mobile commerce by inserting intelligent data tags (unique to each individual ) onto every image. Achieve richer engagement and improved conversion by delivering visuals that contain contextual and individually relevant content, and do it at scale.</p>
+              </div>
+
+          </div>
         </main>
       
        </div>
