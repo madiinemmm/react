@@ -1,0 +1,76 @@
+sans
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: black;
+    font-family: sans-serif;
+  }
+  .Card {
+    width: 650px;
+    background-color: rgb(123, 130, 129);
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  input[type="text"] {
+    padding: 15px;
+    width: 75%;
+    border-radius: 10px;
+    transition: all 0.5s;
+    font-size: 16px;
+    border: none;
+    outline: none;
+  }
+  input::placeholder {
+    font-size: 20px;
+  }
+  
+  .Button {
+    height: 43px;
+    width: 110px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    background-color: rgb(8, 8, 8);
+    transition: all 0.5s;
+    color: white;
+  }
+  .Button:hover {
+    background-color: transparent;
+    border: 3px solid black;
+    color: black;
+  }
+  
+  .list {
+    width: 98%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(235, 233, 233);
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-top: 20px;
+    
+  }
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  .btn{
+    margin-left: auto;
+    display: flex;
+  }
+  button {
+    padding: 5px;
+    margin-left: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
